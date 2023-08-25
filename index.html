@@ -1,0 +1,161 @@
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+  
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="js/all.min.js" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+
+
+    <div class="Home">
+      <nav class="navbar navbar-expand-lg navbar-dark p-5">
+        <div class="container">
+          <a
+            class="navbar-brand d-flex justify-content-center align-items-center"
+            href="index.html"
+          >
+            <div>
+              <img src="images/logo.png" alt="" class="" />
+            </div>
+
+            <div class="ms-3 test">
+              <h1>Weather</h1>
+              <h3>tagline goes here</h3>
+            </div>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Live Cameras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="contacts.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="Home-content  mx-auto">
+        <div class="input m-auto container">
+          <input
+            type="text"
+            class="form-control m-auto rounded-pill p-3"
+            placeholder="Find Your Location.."
+            id="LocationInput"
+          />
+        </div>
+
+
+<div class="container">
+  <div class="row m-5 text-white gy-3">
+    <div class="col-md-4">
+      <div class="">
+        <div class="header borderLeftTop d-flex justify-content-between p-2">
+          <h3 id="Today"></h3>
+          <h3 id="currentMonth"></h3>
+        </div>
+
+        <div class="FirstAndThird px-3 pt-4 borderLeftBottom">
+          <div class="body-content"></div>
+          <h3 class="countryName"></h3>
+          <div class="d-flex justify-content-between align-items-center">
+            <h3 class="todayWeather"></h3>
+            <img  class="w-25 todayIcon"   alt="">
+          </div>
+        
+          <i></i>
+          <h3 class="status status1"></h3>
+          <div class="d-flex footer mt-4 align-items-center">
+            <i><img src="images/icon-umberella.png"  alt="" /></i>
+            <h4 class="humidty"></h4>
+            <i><img src="images/icon-wind.png"  alt="" /></i>
+            <h4 class="wind"></h4>
+            <i><img src="images/icon-compass.png"  alt="" /></i>
+            <h4 class="compass"></h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="">
+        <div class="header2 d-flex justify-content-center p-2">
+          <h3 id="SecondDay"></h3>
+        </div>
+        <div
+          class="secondDayDiv text-center d-flex justify-content-center align-items-center p-3"
+        >
+          <div>
+            <i><img class="secondDayIcon" alt="" /></i>
+            <h3 class="maxDegree2"></h3>
+            <h3 class="Minordegree  minDegree2"></h3>
+
+            <h3 class="status status2"></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="">
+        <div class="header d-flex justify-content-center p-2 borderRightTop">
+          <h3 id="ThirdDay"></h3>
+        </div>
+        <div
+          class="FirstAndThird text-center d-flex justify-content-center align-items-center p-3 borderRightBottom "
+        >
+          <div>
+            <i><img class="ThirdDayIcon" alt="" /></i>
+            <h3 class="maxDegree3"></h3>
+            <h3 class="Minordegree minDegree3"></h3>
+
+            <h3 class="status status3"></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+       
+      </section>
+    </div>
+
+
+      
+    
+    <script src="js/main.js"></script>
+  </body>
+</html>

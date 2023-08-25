@@ -1,0 +1,140 @@
+body 
+{
+    background-color: #1E202B;
+}
+
+nav h1, a
+{
+    font-size: 20;
+}
+nav h3
+{
+    font-size: 12;
+    font-weight: 200;
+}
+
+.nav-item :hover 
+{
+    border: 1px #0488BF solid;
+    border-radius: 10%;
+    color: #0488BF !important;
+}
+
+.nav-item
+{
+    margin: 0px 10px;
+}
+
+
+.Home-content
+{
+    background-image: url(../images/banner.png);
+    background-size: 100% 50%;
+    background-position:top center;
+    
+    background-repeat: no-repeat;
+}
+
+.Home input
+{
+    background-color: #1E202B;
+}
+
+
+.header
+{
+    background-color: #2D303D;
+}
+
+.FirstAndThird
+{
+    background-color: #323544;
+}
+
+.footer i
+{
+    margin: 0px 10px;
+}
+
+.header2
+{
+    background-color: #222530;
+}
+
+.secondDayDiv
+{
+    background-color: #262936;
+}
+.FirstAndThird, .secondDayDiv
+{
+    min-height: 45vh;
+}
+.header h3 , .header2 h3 , .countryName , .footer h4 , .Minordegree
+{
+    font-size: 16;
+    color: #bfc1c8;
+   
+}
+
+.todayWeather 
+{
+    font-size: 100;
+    margin: 10px 0px 30px;
+}
+.status
+{
+    color: #009ad8;
+    font-size: 16;
+}
+
+.borderLeftTop
+{
+    border-top-left-radius:20px ;
+
+}
+.borderRightTop
+{
+    border-top-right-radius:20px ;
+}
+.borderLeftBottom
+{
+    border-bottom-left-radius:20px ;
+}
+.borderRightBottom
+{
+    border-bottom-right-radius:20px ;
+}
+
+
+
+.pagination
+{
+    background-color: #323544;
+}
+
+.pagination a
+{
+    text-decoration: none;
+    color: rgb(182, 177, 177);
+    font-size:16 ;
+}
+
+.pagination span
+{
+    color: #fff;
+
+    font-size:16 ;
+}
+
+.contactsData
+{
+
+    background-color: #323544;
+   
+}
+
+.contactsData h3{
+    font-size: 16;
+    color: #fff;
+}
+
