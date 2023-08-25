@@ -24,7 +24,6 @@ async function GetData(country){
    let Data = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=572e08fb1d7547f58d8151525211205&q=${country}&days=3
    `);
    DataCotainer = await Data.json();
-   console.log(DataCotainer.location)
    today();
    secondDay();
    thirdDay();
@@ -68,7 +67,6 @@ function today(){
 }
 
 function secondDay(){
-    console.log(date.getDay());
     if(date.getDay()==6){
         SecondDay.innerHTML= days[0]; 
     }
